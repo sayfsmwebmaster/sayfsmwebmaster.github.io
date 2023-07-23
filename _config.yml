@@ -1,5 +1,6 @@
 domain: sayfsmwebsite.github.io
 url: httsp://sayfsmwebsite.github.io
+destination: docs/
 baseurl:
 
 defaults:
