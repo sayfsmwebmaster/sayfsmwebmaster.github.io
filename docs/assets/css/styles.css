@@ -13,8 +13,16 @@ body { display: inline-flex; flex-direction: column; }
 .sayfsm-header .sayfsm-header-container .title-page .title-span .title-anchor { text-decoration: none; color: #181818; font-family: Oswald-ExtraLight, Oswald, Sans-Serif; text-transform: uppercase; }
 
 .footer { display: flex; flex: 4; position: inherit; }
-.footer .footer-center { margin: 0 auto; }
-.footer .footer-center li { list-style-type: none; }
+.footer .site-footer { left: 0; margin-left: 0; width: 100%; min-width: 980px; }
+.footer .site-footer .footer-center { position: relative; margin: 0 auto; width: 100%; }
+.footer .site-footer .footer-center .center-column { position: relative; width: 100%; height: auto; }
+.footer .site-footer .footer-center .center-column .grid-container { position: static; display: grid; height: auto; width: 100%; min-height: auto; grid-template-rows: repeat(2, min-content) 1fr; grid-template-columns: 100%; }
+.footer .site-footer .footer-center .center-column .grid-container .div-phone-num { position: relative; margin: 0 0 0 calc((100% - 980px) * 0.5); left: 448px; grid-area: 1 / 1 / 2 / 2; justify-self: start; align-self: start; }
+.footer .site-footer .footer-center .center-column .grid-container .div-phone-num .paragraph-phone .span-phone-num { font: var(--font_9); text-align: center; line-height: 1.875em; font-size: 15px; }
+.footer .site-footer .footer-center .center-column .grid-container .div-social-media { position: relative; margin: 0 0 0 calc((100% - 980px) * 0.5); left: 480px; grid-area: 2 / 1 / 3 / 2; justify-self: start; align-self: start; }
+.footer .site-footer .footer-center .center-column .grid-container .div-social-media ul.social-media-unordered { margin: 0; padding: 0; }
+.footer .site-footer .footer-center .center-column .grid-container .div-social-media ul.social-media-unordered li.social-media { list-style-type: none; }
+.footer .site-footer .footer-center .center-column .grid-container .div-copyright { position: relative; margin: 0 0 5px calc((100% - 980px) * 0.5); left: 264px; grid-area: 3 / 1 / 4 / 2; justify-self: start; align-self: start; }
 
 .menu { display: inherit; flex: 2; width: 100%; }
 .menu .navMenu { position: absolute; margin: 0 auto; top: 220px; }
