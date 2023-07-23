@@ -1,18 +1,8 @@
-collections:
-  authors:
-    output: true
+domain: sayfsmwebsite.github.io
+url: httsp://sayfsmwebsite.github.io
+baseurl:
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:

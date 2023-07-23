@@ -2,7 +2,17 @@
   link: /
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: Programs
+  link: /programs.html
+- name: Health Support
+  link: /health_support.html
+- name: HIV & AIDS Facts
+  link: /hiv_aids_facts.html
+- name: Newsletter
+  link: /newsletter.html
+- name: Meet the Team
+  link: /meet_the_team.html
+- name: Get Involved
+  link: /get_involved.html
+- name: Contact
+  link: /contact.html
