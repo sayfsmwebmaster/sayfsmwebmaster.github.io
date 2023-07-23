@@ -1,1 +1,32 @@
+body { display: inline-flex; flex-direction: column; }
+
 .current { color: green; }
+
+.content { display: flex; flex: 3; margin-top: 230px; position: inherit; }
+
+.sayfsm-header { height: auto; position: relative; display: flex; flex: 1; flex-direction: row; }
+.sayfsm-header .sayfsm-header-container { position: absolute; display: grid; height: auto; width: 100%; min-height: auto; grid-template-rows: min-content 1fr; grid-template-columns: 100%; }
+.sayfsm-header .sayfsm-header-container a.icon-anchor { cursor: pointer; text-decoration: none; color: inherit; }
+.sayfsm-header .sayfsm-header-container a.icon-anchor img { width: 180px; height: 120px; margin: auto; display: block; object-fit: contain; object-position: center center; }
+.sayfsm-header .sayfsm-header-container .title-page { margin: 0 auto; }
+.sayfsm-header .sayfsm-header-container .title-page .title-span { cursor: pointer; color: #181818; display: block; line-height: 1.34em; font-size: 30px; font-weight: 100; text-align: center; text-decoration: none; width: 600px; }
+.sayfsm-header .sayfsm-header-container .title-page .title-span .title-anchor { text-decoration: none; color: #181818; font-family: Oswald-ExtraLight, Oswald, Sans-Serif; text-transform: uppercase; }
+
+.footer { display: flex; flex: 4; position: inherit; }
+.footer .footer-center { margin: 0 auto; }
+.footer .footer-center li { list-style-type: none; }
+
+.menu { display: inherit; flex: 2; width: 100%; }
+.menu .navMenu { position: absolute; margin: 0 auto; top: 220px; }
+.menu .navMenu a { color: #232323; text-decoration: none; font-size: 0.8em; text-transform: uppercase; font-weight: 500; display: inline-block; /*width: 150px;*/ -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.menu .navMenu a:hover { color: #fddb3a; }
+.menu .navMenu a:nth-child(1):hover ~ .dot { -webkit-transform: translateX(20px); transform: translateX(20px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(2):hover ~ .dot { -webkit-transform: translateX(70px); transform: translateX(60px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(3):hover ~ .dot { -webkit-transform: translateX(140px); transform: translateX(130px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(4):hover ~ .dot { -webkit-transform: translateX(240px); transform: translateX(220px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(5):hover ~ .dot { -webkit-transform: translateX(350px); transform: translateX(340px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(6):hover ~ .dot { -webkit-transform: translateX(470px); transform: translateX(450px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(7):hover ~ .dot { -webkit-transform: translateX(570px); transform: translateX(550px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(8):hover ~ .dot { -webkit-transform: translateX(670px); transform: translateX(640px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu a:nth-child(9):hover ~ .dot { -webkit-transform: translateX(760px); transform: translateX(730px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
+.menu .navMenu .dot { width: 6px; height: 6px; background: #fddb3a; border-radius: 50%; opacity: 0; -webkit-transform: translateX(30px); transform: translateX(30px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }

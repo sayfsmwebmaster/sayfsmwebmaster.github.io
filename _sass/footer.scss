@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex: 4;
+  position: inherit;
+  //bottom: 0;
+
+  .footer-center {
+    margin: 0 auto;
+
+    li {
+      list-style-type: none;
+    }
+  }
+}

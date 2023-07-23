@@ -1,0 +1,57 @@
+.sayfsm-header {
+  height: auto;
+  //width: calc(100% - var(--padding)*2);
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  //margin: 0 auto;
+
+  .sayfsm-header-container {
+    position: absolute;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
+
+    a.icon-anchor {
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+
+      img {
+        width: 180px;
+        height: 120px;
+        margin: auto;
+        display: block;
+        object-fit: contain;
+        object-position: center center;
+      }
+    }
+
+    .title-page {
+      margin: 0 auto;
+
+      .title-span {
+        cursor: pointer;
+        color: rgb(24, 24, 24);
+        display: block;
+        line-height: 1.34em;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: center;
+        text-decoration: none;
+        width: 600px;
+
+        .title-anchor {
+          text-decoration: none;
+          color: rgb(24, 24, 24);
+          font-family: Oswald-ExtraLight, Oswald, Sans-Serif;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

@@ -1,14 +1,18 @@
 <!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
     <title>{{ page.title }} | SAYFSM</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
     {% feed_meta %}
     {% seo %}
-</head>
-<body>
-  {% include navigation.html %}
-  {{ content }}
-</body>
+  </head>
+  <body>
+    {% include header.html %}
+    {% include navigation.html %}
+    <div class="content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
 </html>

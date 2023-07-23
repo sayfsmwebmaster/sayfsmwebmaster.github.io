@@ -1,3 +1,19 @@
+body {
+  display: inline-flex;
+  flex-direction: column;
+
+  &> div {
+
+  }
+}
+
 .current {
   color: green;
+}
+
+.content {
+  display: flex;
+  flex: 3;
+  margin-top: 230px;
+  position: inherit;
 }

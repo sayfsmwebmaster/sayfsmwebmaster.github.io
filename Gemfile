@@ -2,7 +2,9 @@
 
 source "https://rubygems.org"
 
+gem 'erb'
 gem 'jekyll'
+gem 'recursive-open-struct'
 gem 'webrick'
 
 group :jekyll_plugins do
