@@ -1,10 +1,12 @@
 <div class="menu">
-  <nav class="navMenu">
-    {% for item in site.data.navigation %}
-      <a href='{{ item.link }}' {% if page.url == item.link %}style="color: red;"{% endif %}>
-        {{ item.name }}
-      </a>
-    {% endfor %}
-    <div class="dot"></div>
-  </nav>
+  <div class="menuContainer">
+    <nav class="navMenu">
+      {% for item in site.data.navigation %}
+        <a href='{{ item.link }}' {% if page.url == item.link %}style="color: red;"{% endif %}>
+          {{ item.name }}
+        </a>
+      {% endfor %}
+      <div class="dot"></div>
+    </nav>
+  </div>
 </div>
