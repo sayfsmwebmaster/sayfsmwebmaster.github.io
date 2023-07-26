@@ -19,7 +19,7 @@ title: Newsletter
         </section>
         <section id="section-right">
             <div class="newsletter-container">
-                {% for item in site.data.newsletters.languages %}
+            {% for item in site.data.newsletters.languages %}
                 <a href="/{{ item.language | downcase }}.html">
                     <div class="individual">
                         <div class="individual-icon">
@@ -42,7 +42,7 @@ title: Newsletter
                         <div class="anchor-span">{{ item.language }}</div>
                     </div>
                 </a>
-                {% endfor %}
+            {% endfor %}
             </div>
         </section>
     </section>

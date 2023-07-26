@@ -1,0 +1,417 @@
+languages:
+  - language: Amharic
+    title: Amharic
+    path: AmharicNewsletters
+    issues:
+      - issue: 27
+        name: Amharic_2023_04_Issue27.pdf
+        type: pdf
+        year: 2023
+        month: April
+      - issue: 26
+        name: Amharic_2023_03_Issue26.pdf
+        type: pdf
+        year: 2023
+        month: March
+      - issue: 25
+        name: Amharic_2023_02b_Issue25.pdf
+        type: pdf
+        year: 2023
+        month: February B
+      - issue: 24
+        name: Amharic_2023_02_Issue24.pdf
+        type: pdf
+        year: 2023
+        month: February
+      - issue: 23
+        name: Amharic_2023_01_Issue23.pdf
+        type: pdf
+        year: 2023
+        month: January
+      - issue: 22
+        name: Amharic_2022_11_Issue22.pdf
+        type: pdf
+        year: 2022
+        month: November
+      - issue: 21
+        name: Amharic_2022_10_Issue21.pdf
+        type: pdf
+        year: 2022
+        month: October
+      - issue: 20
+        name: Amharic_2022_06_Issue20.pdf
+        type: pdf
+        year: 2022
+        month: June
+      - issue: 19
+        name: Amharic_2022_02_Issue19.pdf
+        type: pdf
+        year: 2022
+        month: February
+      - issue: 18
+        name: Amharic_2021_12_Issue18.pdf
+        type: pdf
+        year: 2021
+        month: December
+      - issue: 17
+        name: Amharic_2021_09_Issue17.pdf
+        type: pdf
+        year: 2021
+        month: September
+      - issue: 15
+        name: Amharic_2021_05_Issue15.pdf
+        type: pdf
+        year: 2021
+        month: May
+      - issue: 14
+        name: Amharic_2021_04_Issue14.pdf
+        type: pdf
+        year: 2021
+        month: April
+      - issue: 12
+        name: Amharic_2021_02_issue12.pdf
+        type: pdf
+        year: 2021
+        month: February
+      - issue: 9
+        name: Amharic_2020_10_issue_9.pdf
+        type: pdf
+        year: 2020
+        month: October
+
+  - language: English
+    title: English
+    path: EnglishNewsletters
+    issues:
+      - issue: 27
+        name: English_2023_04_Issue27.pdf
+        type: pdf
+        year: 2023
+        month: April
+      - issue: 26
+        name: English_2023_03_Issue26.pdf
+        type: pdf
+        year: 2023
+        month: March
+      - issue: 25
+        name: English_2023_02b_Issue25.pdf
+        type: pdf
+        year: 2023
+        month: February B
+      - issue: 24
+        name: English_2023_02_Issue24.pdf
+        type: pdf
+        year: 2023
+        month: February
+      - issue: 23
+        name: English_2023_01_Issue23.pdf
+        type: pdf
+        year: 2023
+        month: January
+      - issue: 22
+        name: English_2022_11_Issue22.pdf
+        type: pdf
+        year: 2022
+        month: November
+      - issue: 21
+        name: English_2022_09_Issue21.pdf
+        type: pdf
+        year: 2022
+        month: September
+      - issue: 20
+        name: English_2022_06_Issue20.pdf
+        type: pdf
+        year: 2022
+        month: June
+      - issue: 19
+        name: English_2022_02_Issue19.pdf
+        type: pdf
+        year: 2022
+        month: February
+      - issue: 18
+        name: English_2021_12_Issue18.pdf
+        type: pdf
+        year: 2021
+        month: December
+      - issue: 17
+        name: English_2021_09_Issue17.pdf
+        type: pdf
+        year: 2021
+        month: September
+      - issue: 15
+        name: English_2021_05_Issue15.pdf
+        type: pdf
+        year: 2021
+        month: May
+      - issue: 14
+        name: English_2021_04_Issue14.pdf
+        type: pdf
+        year: 2021
+        month: April
+      - issue: 13
+        name: English_2021_03_Issue13.pdf
+        type: pdf
+        year: 2021
+        month: March
+      - issue: 12
+        name: English_2021_02_Issue12.pdf
+        type: pdf
+        year: 2021
+        month: February
+  - language: Swahili
+    title: Swahili
+    path: KiswahiliNewsletters
+    issues:
+      - issue: 27
+        name: Swahili_2023_04_Issue27.pdf
+        type: pdf
+        year: 2023
+        month: April
+      - issue: 26
+        name: Swahili_2023_03_Issue26.pdf
+        type: pdf
+        year: 2023
+        month: March
+      - issue: 25
+        name: Swahili_2023_02b_Issue25.pdf
+        type: pdf
+        year: 2023
+        month: February B
+      - issue: 24
+        name: Swahili_2023_02_Issue24.pdf
+        type: pdf
+        year: 2023
+        month: February
+      - issue: 23
+        name: Swahili_2023_01_Issue23.pdf
+        type: pdf
+        year: 2023
+        month: January
+      - issue: 22
+        name: Swahili_2022_11_Issue22.pdf
+        type: pdf
+        year: 2022
+        month: November
+      - issue: 21
+        name: Swahili_2022_09_Issue21.pdf
+        type: pdf
+        year: 2022
+        month: September
+      - issue: 20
+        name: Swahili_2022_06_Issue20.pdf
+        type: pdf
+        year: 2022
+        month: June
+      - issue: 18
+        name: Swahili_2021_12_Issue18.pdf
+        type: pdf
+        year: 2021
+        month: December
+      - issue: 17
+        name: Swahili_2021_09_Issue17.pdf
+        type: pdf
+        year: 2021
+        month: September
+      - issue: 15
+        name: Swahili_2021_05_Issue15.pdf
+        type: pdf
+        year: 2021
+        month: May
+      - issue: 14
+        name: Swahili_2021_04_Issue14.pdf
+        type: pdf
+        year: 2021
+        month: April
+      - issue: 12
+        name: Swahili_2021_02_Issue12.pdf
+        type: pdf
+        year: 2021
+        month: February
+      - issue: 11
+        name: Swahili_2020_12_Issue11.pdf
+        type: pdf
+        year: 2020
+        month: December
+
+  - language: Oromo
+    title: Oromo
+    path: OromoNewsletters
+    issues:
+      - issue: 27
+        name: Oromo_2023_04_Issue27.pdf
+        type: pdf
+        year: 2023
+        month: April
+      - issue: 26
+        name: Oromo_2023_03_Issue26.pdf
+        type: pdf
+        year: 2023
+        month: March
+      - issue: 25
+        name: Oromo_2023_02b_Issue25.pdf
+        type: pdf
+        year: 2023
+        month: February B
+      - issue: 24
+        name: Oromo_2023_02_Issue24.pdf
+        type: pdf
+        year: 2023
+        month: February
+      - issue: 23
+        name: Oromo_2023_01_Issue23.pdf
+        type: pdf
+        year: 2023
+        month: January
+      - issue: 22
+        name: Oromo_2022_11_Issue22.pdf
+        type: pdf
+        year: 2022
+        month: November
+      - issue: 21
+        name: Oromo_2022_09_Issue21.pdf
+        type: pdf
+        year: 2022
+        month: September
+      - issue: 20
+        name: Oromo_2022_06_Issue20.pdf
+        type: pdf
+        year: 2022
+        month: June
+      - issue: 19
+        name: Oromo_2022_02_Issue19.pdf
+        type: pdf
+        year: 2022
+        month: February
+      - issue: 18
+        name: Oromo_2021_12.docx
+        type: docx
+        year: 2021
+        month: December
+      - issue: 17
+        name: Oromo_2021_09.pdf
+        type: pdf
+        year: 2021
+        month: September
+      - issue: 15
+        name: Oromo_2021_05.pdf
+        type: pdf
+        year: 2021
+        month: May
+      - issue: 14
+        name: Oromo_2021_04.pdf
+        type: pdf
+        year: 2021
+        month: April
+      - issue: 12
+        name: Oromo_2021_02.pdf
+        type: pdf
+        year: 2021
+        month: February
+      - issue: 11
+        name: Oromo_2020_12.pdf
+        type: pdf
+        year: 2020
+        month: December
+  - language: Somali
+    title: Somali
+    path: SomaliNewsletters
+    issues:
+      - issue: 27
+        name: Somali_2023_04_Issue27.pdf
+        type: pdf
+        year: 2023
+        month: April
+      - issue: 26
+        name: Somali_2023_03_Issue26.pdf
+        type: pdf
+        year: 2023
+        month: March
+      - issue: 25
+        name: Somali_2023_02b_Issue25.pdf
+        type: pdf
+        year: 2023
+        month: February B
+      - issue: 24
+        name: Somali_2023_02_Issue24.pdf
+        type: pdf
+        year: 2023
+        month: February
+      - issue: 23
+        name: Somali_2023_01_Issue23.pdf
+        type: pdf
+        year: 2023
+        month: January
+      - issue: 22
+        name: Somali_2022_11_Issue22.pdf
+        type: pdf
+        year: 2022
+        month: November
+      - issue: 21
+        name: Somali_2022_09_Issue21.pdf
+        type: pdf
+        year: 2022
+        month: September
+      - issue: 20
+        name: Somali_2022_06_Issue20.pdf
+        type: pdf
+        year: 2022
+        month: June
+      - issue: 19
+        name: Somali_2022_02_Issue19.pdf
+        type: pdf
+        year: 2022
+        month: February
+      - issue: 18
+        name: Somali_2021_12_Issue18.pdf
+        type: pdf
+        year: 2021
+        month: December
+      - issue: 17
+        name: Somali_2021_09_Issue17.pdf
+        type: pdf
+        year: 2021
+        month: September
+      - issue: 15
+        name: Somali_2021_05_Issue15.pdf
+        type: pdf
+        year: 2021
+        month: May
+      - issue: 14
+        name: Somali_2021_04_Issue14.pdf
+        type: pdf
+        year: 2021
+        month: April
+      - issue: 12
+        name: Somali_2021_02_Issue12.pdf
+        type: pdf
+        year: 2021
+        month: February
+      - issue: 11
+        name: Somali_2020_12_Issue11.pdf
+        type: pdf
+        year: 2020
+        month: December
+  - language: Tigrinya
+    title: Tigrinya
+    path: TigrinyaNewsletters
+    issues:
+      - issue: 18
+        name: Tigernya_2021_12_Issue18.pdf
+        type: pdf
+        year: 2021
+        month: December
+      - issue: 17
+        name: Tigernya_2021_09_Issue17.pdf
+        type: pdf
+        year: 2021
+        month: September
+      - issue: 14
+        name: Tigernya_2021_04.pdf
+        type: pdf
+        year: 2021
+        month: April
+      - issue: 12
+        name: Tigernya_2021_02.pdf
+        type: pdf
+        year: 2021
+        month: February
