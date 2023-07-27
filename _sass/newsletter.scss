@@ -57,7 +57,7 @@
   }
 }
 
-#newsletter-wrapper {
+[id*="-wrapper"] {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -67,8 +67,9 @@
 
     .title {
       h1.header-title {
-        font-size: 3em;
         font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
+        text-align: center;
+        font-size: 40px;
 
         .span-header {
           text-transform: uppercase;
@@ -87,7 +88,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: 10px 20px;
+      gap: 20px;
 
       a {
         text-decoration: none;
@@ -98,18 +99,18 @@
           margin: auto;
 
           .individual-icon {
-            padding: 5px;
+            padding: 10px 5px 5px 5px;
           }
           .anchor-span {
             font-family: "Arial, Helvetica, sans-serif", serif;
-            font-size: 1.7em;
+            font-size: 20px;
             padding: 5px;
             text-decoration: none;
           }
           .anchor-span-two {
             font-family: "Arial, Helvetica, sans-serif", serif;
-            font-size: 1.2em;
-            padding: 5px;
+            font-size: 14px;
+            padding: 5px 5px 10px 5px;
             text-decoration: none;
           }
         }
@@ -117,8 +118,9 @@
     }
   }
 
-  #section-wrapper {
-    width: 100%;
+  #section-envelope {
+    min-width: 780px;
+    max-width: 980px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -173,5 +175,70 @@
         }
       }
     }
+
+    #section-paragraphs {
+      width: 780px;
+      margin: 10px auto;
+
+      .title {
+        h2.paragraph-title {
+          font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
+          text-align: center;
+          font-size: 40px;
+
+          .span-header {
+            text-transform: uppercase;
+            font-weight: 100;
+          }
+        }
+      }
+
+      .paragraph-text {
+        text-align: center;
+        line-height: 1.875em;
+        font-size: 15px;
+      }
+    }
+
+    #about-first-image {
+      width: 100%;
+      margin: 20px 0;
+
+      .image-envelope {
+        width: 100%;
+      }
+    }
+
+    #about-checkerboard {
+      margin: 20px 0;
+      .checkerboard-envelope {
+
+        .checkerboard-table {
+
+          .checkerboard-tr {
+
+            .checkerboard-td-image {
+
+              .checkerboard-image-envelope {
+
+              }
+            }
+
+            .checkerboard-td-text {
+              padding: 10px;
+              vertical-align: middle;
+
+              .checkerboard-span-text {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
+}
+
+#about-wrapper #section-envelope {
+  flex-direction: column;
 }
