@@ -148,15 +148,22 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope #index-first-image #overlay-text { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; position: absolute; }
 [id*="-wrapper"] #section-envelope #index-first-image #overlay-text .title-overlay-text { color: antiquewhite; display: block; font-size: 50px; left: 112px; position: absolute; top: -550px; width: 700px; }
 [id*="-wrapper"] #section-envelope #index-first-image #overlay-text .overlay-subtext { color: antiquewhite; font-size: 30px; left: 334px; position: relative; top: -155px; }
-[id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-one { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; font-size: 40px; }
-[id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-two { font-family: "Times New Roman"; font-size: 20px; }
-[id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-three { font-family: Helvetica, Arial, sans-serif; font-size: 15px; }
-[id*="-wrapper"] #section-envelope #index-way-we-help { font-family: Helvetica, Arial, sans-serif; }
-[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .way-we-help-mission-statement-one { font-family: Oswald-ExtraLight, Oswald, Helvetica, Arial, Sans-Serif; }
+[id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text { margin: 40px auto; width: 800px; }
+[id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-one { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; font-size: 40px; margin: 40px; }
+[id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-two { font-family: "Times New Roman"; font-size: 20px; margin: 20px; }
+[id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-three { font-family: Helvetica, Arial, sans-serif; font-size: 15px; margin: 20px; }
+[id*="-wrapper"] #section-envelope #index-way-we-help { font-family: Helvetica, Arial, sans-serif; margin: 0 auto; padding: 20px; width: 850px; }
+[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope { background-color: #dedede; padding: 20px; }
+[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .way-we-help-mission-statement-one { font-family: Oswald-ExtraLight, Oswald, Helvetica, Arial, Sans-Serif; text-transform: uppercase; margin: 20px; }
 [id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .way-we-help-mission-statement-one .title { font-size: 30px; }
+[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .way-we-help-mission-statement-two { margin: 20px; }
 [id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .way-we-help-mission-statement-two .sub-title { font-size: 20px; }
-[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .mission-statement-three .mission-paragraph { font-size: 15px; }
+[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .mission-statement-three .mission-paragraph { font-size: 15px; font-style: italic; }
+[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .may-we-help-mission-contact-us { margin: 40px; }
+[id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .may-we-help-mission-contact-us #linkElement { text-decoration: none; }
 
 #about-wrapper #section-envelope { flex-direction: column; }
 
 #index-wrapper #section-envelope { flex-direction: column; }
+#index-wrapper #section-envelope #index-last-image h1.title-overlay-text { color: antiquewhite; display: block; font-size: 25px; left: -39px; position: relative; top: -300px; }
+#index-wrapper #section-envelope #index-last-image .overlay-subtext { color: antiquewhite; font-size: 20px; left: 227px; position: relative; top: -290px; }
