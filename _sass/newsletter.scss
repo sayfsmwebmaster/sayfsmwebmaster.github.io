@@ -227,12 +227,67 @@
             .checkerboard-td-text {
               padding: 10px;
               vertical-align: middle;
+              width: 220px;
 
               .checkerboard-span-text {
-                font-size: 16px;
+                font-size: 20px;
+                font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
               }
             }
           }
+        }
+      }
+    }
+
+    #index-first-image {
+      width: 100%;
+      margin: 20px 0;
+
+      .image-envelope {
+        width: 100%;
+      }
+
+      #overlay-text {
+        font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
+        position: absolute;
+
+        .title-overlay-text {
+          color: antiquewhite;
+          display: block;
+          font-size: 50px;
+          left: 112px;
+          position: absolute;
+          top: -550px;
+          width: 700px;
+        }
+
+        .overlay-subtext {
+          color: antiquewhite;
+          font-size: 30px;
+          left: 334px;
+          position: relative;
+          top: -155px;
+        }
+      }
+    }
+
+    #index-mission-statement {
+
+      .mission-statement-text {
+
+        .mission-statement-one {
+          font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
+          font-size: 40px;
+        }
+
+        .mission-statement-two {
+          font-family: "Times New Roman";
+          font-size: 20px;
+        }
+
+        .mission-statement-three {
+          font-family: Helvetica;
+          font-size: 15px;
         }
       }
     }
@@ -240,5 +295,8 @@
 }
 
 #about-wrapper #section-envelope {
+  flex-direction: column;
+}
+#index-wrapper #section-envelope {
   flex-direction: column;
 }
