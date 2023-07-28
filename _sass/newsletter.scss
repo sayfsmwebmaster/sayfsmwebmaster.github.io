@@ -286,8 +286,35 @@
         }
 
         .mission-statement-three {
-          font-family: Helvetica;
+          font-family: Helvetica, Arial, sans-serif;;
           font-size: 15px;
+        }
+      }
+    }
+
+    #index-way-we-help {
+      font-family: Helvetica, Arial, sans-serif;
+
+      .index-mission-envelope {
+
+        .way-we-help-mission-statement-one {
+          font-family: Oswald-ExtraLight, Oswald, Helvetica, Arial, Sans-Serif;
+
+          .title {
+            font-size: 30px;
+          }
+        }
+        .way-we-help-mission-statement-two {
+
+          .sub-title {
+            font-size: 20px;
+          }
+        }
+        .mission-statement-three {
+
+          .mission-paragraph {
+            font-size: 15px;
+          }
         }
       }
     }
