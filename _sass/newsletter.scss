@@ -76,6 +76,10 @@
           font-weight: 100;
         }
       }
+      h2.header-subtitle {
+        text-align: center;
+        font-size: 20px;
+      }
     }
   }
 
@@ -122,7 +126,7 @@
     min-width: 780px;
     max-width: 980px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
 
@@ -176,7 +180,8 @@
       }
     }
 
-    #section-paragraphs {
+    #section-paragraphs,
+    .section-paragraphs {
       width: 780px;
       margin: 10px auto;
 
@@ -197,6 +202,29 @@
         text-align: center;
         line-height: 1.875em;
         font-size: 15px;
+      }
+    }
+
+    .section-paragraphs {
+      background-color: #DDD;
+      text-align: left;
+
+      .title {
+        h2.paragraph-title {
+          font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
+          text-align: left;
+          font-size: 30px;
+        }
+
+        .span-header {
+          font-weight: 100;
+        }
+
+        .paragraph-text {
+          text-align: left;
+          line-height: 1.875em;
+          font-size: 15px;
+        }
       }
     }
 
@@ -340,17 +368,30 @@
         }
       }
     }
-
-
   }
 }
 
-#about-wrapper #section-envelope {
-  flex-direction: column;
-}
-#index-wrapper #section-envelope {
+#programs-wrapper #section-envelope {
   flex-direction: column;
 
+  .section-paragraphs {
+    background-color: #dddddd;
+    padding: 20px;
+
+    .paragraph-text {
+      text-align: left;
+
+      ul {
+        padding-left: 40px;
+      }
+    }
+  }
+}
+#newsletter-wrapper #section-envelope {
+  flex-direction: row;
+}
+
+#index-wrapper #section-envelope {
   #index-last-image {
     .image-envelope {
 

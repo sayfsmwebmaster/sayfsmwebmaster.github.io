@@ -117,6 +117,7 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-title { padding: 20px 0; }
 [id*="-wrapper"] #section-title .title h1.header-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: center; font-size: 40px; }
 [id*="-wrapper"] #section-title .title h1.header-title .span-header { text-transform: uppercase; font-weight: 100; }
+[id*="-wrapper"] #section-title .title h2.header-subtitle { text-align: center; font-size: 20px; }
 [id*="-wrapper"] #section-anchors { padding-bottom: 20px; }
 [id*="-wrapper"] #section-anchors .newsletter-container { display: inline-flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px; }
 [id*="-wrapper"] #section-anchors .newsletter-container a { text-decoration: none; }
@@ -124,7 +125,7 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-anchors .newsletter-container a .individual .individual-icon { padding: 10px 5px 5px 5px; }
 [id*="-wrapper"] #section-anchors .newsletter-container a .individual .anchor-span { font-family: "Arial, Helvetica, sans-serif", serif; font-size: 20px; padding: 5px; text-decoration: none; }
 [id*="-wrapper"] #section-anchors .newsletter-container a .individual .anchor-span-two { font-family: "Arial, Helvetica, sans-serif", serif; font-size: 14px; padding: 5px 5px 10px 5px; text-decoration: none; }
-[id*="-wrapper"] #section-envelope { min-width: 780px; max-width: 980px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; }
+[id*="-wrapper"] #section-envelope { min-width: 780px; max-width: 980px; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; }
 [id*="-wrapper"] #section-envelope #section-left #image-wrapper { display: block; }
 [id*="-wrapper"] #section-envelope #section-left #image-wrapper #image-sizer { width: 100%; display: block; }
 [id*="-wrapper"] #section-envelope #section-left #image-wrapper #image-sizer img { max-width: 100%; max-height: 100%; }
@@ -134,10 +135,14 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope #section-right .newsletter-container a .individual { background-color: #f0f0ff; width: 180px; margin: auto; }
 [id*="-wrapper"] #section-envelope #section-right .newsletter-container a .individual .individual-icon { padding: 15px; }
 [id*="-wrapper"] #section-envelope #section-right .newsletter-container a .individual .anchor-span { font-family: "Arial, Helvetica, sans-serif", serif; font-size: 1.5em; text-decoration: none; padding: 10px; }
-[id*="-wrapper"] #section-envelope #section-paragraphs { width: 780px; margin: 10px auto; }
-[id*="-wrapper"] #section-envelope #section-paragraphs .title h2.paragraph-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: center; font-size: 40px; }
-[id*="-wrapper"] #section-envelope #section-paragraphs .title h2.paragraph-title .span-header { text-transform: uppercase; font-weight: 100; }
-[id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text { text-align: center; line-height: 1.875em; font-size: 15px; }
+[id*="-wrapper"] #section-envelope #section-paragraphs, [id*="-wrapper"] #section-envelope .section-paragraphs { width: 780px; margin: 10px auto; }
+[id*="-wrapper"] #section-envelope #section-paragraphs .title h2.paragraph-title, [id*="-wrapper"] #section-envelope .section-paragraphs .title h2.paragraph-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: center; font-size: 40px; }
+[id*="-wrapper"] #section-envelope #section-paragraphs .title h2.paragraph-title .span-header, [id*="-wrapper"] #section-envelope .section-paragraphs .title h2.paragraph-title .span-header { text-transform: uppercase; font-weight: 100; }
+[id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text, [id*="-wrapper"] #section-envelope .section-paragraphs .paragraph-text { text-align: center; line-height: 1.875em; font-size: 15px; }
+[id*="-wrapper"] #section-envelope .section-paragraphs { background-color: #DDD; text-align: left; }
+[id*="-wrapper"] #section-envelope .section-paragraphs .title h2.paragraph-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: left; font-size: 30px; }
+[id*="-wrapper"] #section-envelope .section-paragraphs .title .span-header { font-weight: 100; }
+[id*="-wrapper"] #section-envelope .section-paragraphs .title .paragraph-text { text-align: left; line-height: 1.875em; font-size: 15px; }
 [id*="-wrapper"] #section-envelope #about-first-image { width: 100%; margin: 20px 0; }
 [id*="-wrapper"] #section-envelope #about-first-image .image-envelope { width: 100%; }
 [id*="-wrapper"] #section-envelope #about-checkerboard { margin: 20px 0; }
@@ -162,8 +167,12 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .may-we-help-mission-contact-us { margin: 40px; }
 [id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .may-we-help-mission-contact-us #linkElement { text-decoration: none; }
 
-#about-wrapper #section-envelope { flex-direction: column; }
+#programs-wrapper #section-envelope { flex-direction: column; }
+#programs-wrapper #section-envelope .section-paragraphs { background-color: #dddddd; padding: 20px; }
+#programs-wrapper #section-envelope .section-paragraphs .paragraph-text { text-align: left; }
+#programs-wrapper #section-envelope .section-paragraphs .paragraph-text ul { padding-left: 40px; }
 
-#index-wrapper #section-envelope { flex-direction: column; }
+#newsletter-wrapper #section-envelope { flex-direction: row; }
+
 #index-wrapper #section-envelope #index-last-image h1.title-overlay-text { color: antiquewhite; display: block; font-size: 25px; left: -39px; position: relative; top: -300px; }
 #index-wrapper #section-envelope #index-last-image .overlay-subtext { color: antiquewhite; font-size: 20px; left: 227px; position: relative; top: -290px; }
