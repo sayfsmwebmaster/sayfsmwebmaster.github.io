@@ -1,7 +1,7 @@
-domain: sayfsmwebsite.github.io
-url: httsp://sayfsmwebsite.github.io
+domain: sayfsmwebmaster.github.io
+url: httsp://sayfsm.org
 destination: docs/
-baseurl:
+
 
 defaults:
   - scope:
