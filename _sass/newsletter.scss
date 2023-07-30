@@ -61,6 +61,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 980px;
 
   #section-title {
     padding: 20px 0;
@@ -202,12 +203,22 @@
         text-align: center;
         line-height: 1.875em;
         font-size: 15px;
+
+        p {
+          text-align: left;
+        }
+
+        ul {
+          padding-left: 40px;
+          text-align: left;
+        }
       }
     }
 
     .section-paragraphs {
       background-color: #DDD;
       text-align: left;
+      padding: 20px;
 
       .title {
         h2.paragraph-title {
@@ -368,27 +379,75 @@
         }
       }
     }
-  }
-}
 
-#programs-wrapper #section-envelope {
-  flex-direction: column;
+    .health-support-section {
+      background-color: #e5e5e5;
+      width: 850px;
+      margin: 20px auto;
+      padding: 20px;
 
-  .section-paragraphs {
-    background-color: #dddddd;
-    padding: 20px;
+      .left-side-question {
+        float: left;
+        width: 200px;
+        text-align: left;
 
-    .paragraph-text {
-      text-align: left;
+        h2 {
+          font-size: 22px;
+        }
+      }
 
-      ul {
-        padding-left: 40px;
+      .right-side-answer {
+        float: right;
+        width: 600px;
+        text-align: left;
+        font-size: 22px;
       }
     }
   }
 }
+
 #newsletter-wrapper #section-envelope {
   flex-direction: row;
+
+  #section-left {
+    width: 800px;
+  }
+}
+
+#hiv-aids-wrapper {
+  flex-direction: row;
+
+  #left-section {
+    width: 600px;
+    margin: 40px 80px;
+    text-align: left;
+
+    #section-title {
+      margin: 0;
+      padding: 0;
+
+      .sub-title {
+        h2.header-subtitle {
+          margin: 20px 0;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .section-paragraphs {
+      .paragraph-text {
+        font-size: 20px;
+      }
+      .external-link {
+        font-size: 20px;
+        margin: 10px 0;
+
+        a.linkElement {
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 #index-wrapper #section-envelope {

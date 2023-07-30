@@ -113,7 +113,7 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 #comp-lhces85f-inlineContent-gridContainer #comp-lhces85h1 .comp-lhces85h2 { background-color: #b9b9b9; margin: auto; }
 #comp-lhces85f-inlineContent-gridContainer #comp-lhces85h1 .comp-lhces85h2 .newsletter-anchor { width: 300px; height: 300px; }
 
-[id*="-wrapper"] { display: flex; flex-direction: column; text-align: center; }
+[id*="-wrapper"] { display: flex; flex-direction: column; text-align: center; width: 980px; }
 [id*="-wrapper"] #section-title { padding: 20px 0; }
 [id*="-wrapper"] #section-title .title h1.header-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: center; font-size: 40px; }
 [id*="-wrapper"] #section-title .title h1.header-title .span-header { text-transform: uppercase; font-weight: 100; }
@@ -139,7 +139,9 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope #section-paragraphs .title h2.paragraph-title, [id*="-wrapper"] #section-envelope .section-paragraphs .title h2.paragraph-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: center; font-size: 40px; }
 [id*="-wrapper"] #section-envelope #section-paragraphs .title h2.paragraph-title .span-header, [id*="-wrapper"] #section-envelope .section-paragraphs .title h2.paragraph-title .span-header { text-transform: uppercase; font-weight: 100; }
 [id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text, [id*="-wrapper"] #section-envelope .section-paragraphs .paragraph-text { text-align: center; line-height: 1.875em; font-size: 15px; }
-[id*="-wrapper"] #section-envelope .section-paragraphs { background-color: #DDD; text-align: left; }
+[id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text p, [id*="-wrapper"] #section-envelope .section-paragraphs .paragraph-text p { text-align: left; }
+[id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text ul, [id*="-wrapper"] #section-envelope .section-paragraphs .paragraph-text ul { padding-left: 40px; text-align: left; }
+[id*="-wrapper"] #section-envelope .section-paragraphs { background-color: #DDD; text-align: left; padding: 20px; }
 [id*="-wrapper"] #section-envelope .section-paragraphs .title h2.paragraph-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: left; font-size: 30px; }
 [id*="-wrapper"] #section-envelope .section-paragraphs .title .span-header { font-weight: 100; }
 [id*="-wrapper"] #section-envelope .section-paragraphs .title .paragraph-text { text-align: left; line-height: 1.875em; font-size: 15px; }
@@ -166,13 +168,21 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .mission-statement-three .mission-paragraph { font-size: 15px; font-style: italic; }
 [id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .may-we-help-mission-contact-us { margin: 40px; }
 [id*="-wrapper"] #section-envelope #index-way-we-help .index-mission-envelope .may-we-help-mission-contact-us #linkElement { text-decoration: none; }
-
-#programs-wrapper #section-envelope { flex-direction: column; }
-#programs-wrapper #section-envelope .section-paragraphs { background-color: #dddddd; padding: 20px; }
-#programs-wrapper #section-envelope .section-paragraphs .paragraph-text { text-align: left; }
-#programs-wrapper #section-envelope .section-paragraphs .paragraph-text ul { padding-left: 40px; }
+[id*="-wrapper"] #section-envelope .health-support-section { background-color: #e5e5e5; width: 850px; margin: 20px auto; padding: 20px; }
+[id*="-wrapper"] #section-envelope .health-support-section .left-side-question { float: left; width: 200px; text-align: left; }
+[id*="-wrapper"] #section-envelope .health-support-section .left-side-question h2 { font-size: 22px; }
+[id*="-wrapper"] #section-envelope .health-support-section .right-side-answer { float: right; width: 600px; text-align: left; font-size: 22px; }
 
 #newsletter-wrapper #section-envelope { flex-direction: row; }
+#newsletter-wrapper #section-envelope #section-left { width: 800px; }
+
+#hiv-aids-wrapper { flex-direction: row; }
+#hiv-aids-wrapper #left-section { width: 600px; margin: 40px 80px; text-align: left; }
+#hiv-aids-wrapper #left-section #section-title { margin: 0; padding: 0; }
+#hiv-aids-wrapper #left-section #section-title .sub-title h2.header-subtitle { margin: 20px 0; font-size: 20px; }
+#hiv-aids-wrapper #left-section .section-paragraphs .paragraph-text { font-size: 20px; }
+#hiv-aids-wrapper #left-section .section-paragraphs .external-link { font-size: 20px; margin: 10px 0; }
+#hiv-aids-wrapper #left-section .section-paragraphs .external-link a.linkElement { text-decoration: none; }
 
 #index-wrapper #section-envelope #index-last-image h1.title-overlay-text { color: antiquewhite; display: block; font-size: 25px; left: -39px; position: relative; top: -300px; }
 #index-wrapper #section-envelope #index-last-image .overlay-subtext { color: antiquewhite; font-size: 20px; left: 227px; position: relative; top: -290px; }
