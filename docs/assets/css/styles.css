@@ -141,10 +141,12 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text, [id*="-wrapper"] #section-envelope .section-paragraphs .paragraph-text { text-align: center; line-height: 1.875em; font-size: 15px; }
 [id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text p, [id*="-wrapper"] #section-envelope .section-paragraphs .paragraph-text p { text-align: left; }
 [id*="-wrapper"] #section-envelope #section-paragraphs .paragraph-text ul, [id*="-wrapper"] #section-envelope .section-paragraphs .paragraph-text ul { padding-left: 40px; text-align: left; }
+[id*="-wrapper"] #section-envelope #section-paragraphs .contact-services, [id*="-wrapper"] #section-envelope .section-paragraphs .contact-services { font-size: 20px; padding-left: 20px; }
 [id*="-wrapper"] #section-envelope .section-paragraphs { background-color: #DDD; text-align: left; padding: 20px; }
 [id*="-wrapper"] #section-envelope .section-paragraphs .title h2.paragraph-title { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; text-align: left; font-size: 30px; }
 [id*="-wrapper"] #section-envelope .section-paragraphs .title .span-header { font-weight: 100; }
 [id*="-wrapper"] #section-envelope .section-paragraphs .title .paragraph-text { text-align: left; line-height: 1.875em; font-size: 15px; }
+[id*="-wrapper"] #section-envelope .address { padding: 10px; font-size: 16px; }
 [id*="-wrapper"] #section-envelope #about-first-image { width: 100%; margin: 20px 0; }
 [id*="-wrapper"] #section-envelope #about-first-image .image-envelope { width: 100%; }
 [id*="-wrapper"] #section-envelope #about-checkerboard { margin: 20px 0; }
