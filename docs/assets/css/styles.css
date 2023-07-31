@@ -154,9 +154,9 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope #about-checkerboard .checkerboard-envelope .checkerboard-table .checkerboard-tr .checkerboard-td-text .checkerboard-span-text { font-size: 20px; font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; }
 [id*="-wrapper"] #section-envelope #index-first-image { width: 100%; margin: 20px 0; }
 [id*="-wrapper"] #section-envelope #index-first-image .image-envelope { width: 100%; }
-[id*="-wrapper"] #section-envelope #index-first-image #overlay-text { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; position: absolute; }
-[id*="-wrapper"] #section-envelope #index-first-image #overlay-text .title-overlay-text { color: antiquewhite; display: block; font-size: 50px; left: 112px; position: absolute; top: -550px; width: 700px; }
-[id*="-wrapper"] #section-envelope #index-first-image #overlay-text .overlay-subtext { color: antiquewhite; font-size: 30px; left: 334px; position: relative; top: -155px; }
+[id*="-wrapper"] #section-envelope #index-first-image .overlay-text { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; position: absolute; }
+[id*="-wrapper"] #section-envelope #index-first-image .overlay-text .title-overlay-text { color: antiquewhite; display: block; font-size: 50px; left: 112px; position: absolute; top: -550px; width: 700px; }
+[id*="-wrapper"] #section-envelope #index-first-image .overlay-text .overlay-subtext { color: antiquewhite; font-size: 30px; left: 334px; position: relative; top: -155px; }
 [id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text { margin: 40px auto; width: 800px; }
 [id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-one { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; font-size: 40px; margin: 40px; }
 [id*="-wrapper"] #section-envelope #index-mission-statement .mission-statement-text .mission-statement-two { font-family: "Times New Roman"; font-size: 20px; margin: 20px; }
@@ -174,9 +174,33 @@ body:not(.device-mobile-optimized) .CohWsy { --display: flex; display: var(--dis
 [id*="-wrapper"] #section-envelope .health-support-section .left-side-question { float: left; width: 200px; text-align: left; }
 [id*="-wrapper"] #section-envelope .health-support-section .left-side-question h2 { font-size: 22px; }
 [id*="-wrapper"] #section-envelope .health-support-section .right-side-answer { float: right; width: 600px; text-align: left; font-size: 22px; }
+[id*="-wrapper"] #section-envelope #photo-envelope { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left { width: 480px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left .image-envelope { display: block; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left .image-envelope #image-sizer { width: 100%; display: block; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left .image-envelope #image-sizer img { max-width: 100%; max-height: 100%; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left .overlay-text { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; position: absolute; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left .overlay-text .title-overlay-text { color: black; display: block; font-size: 40px; left: 37px; position: absolute; top: -400px; width: 400px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left .overlay-text .overlay-subtext { color: crimson; font-size: 25px; font-weight: 900; left: 34px; position: absolute; top: -325px; width: 400px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-left .overlay-text .overlay-subtext a { color: #ff0000; text-decoration: none; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right { display: block; width: 480px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .newsletter-container { display: inline-flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px 15px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .newsletter-container a { text-decoration: none; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .newsletter-container a .individual { background-color: #f0f0ff; width: 180px; margin: auto; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .newsletter-container a .individual .individual-icon { padding: 15px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .newsletter-container a .individual .anchor-span { font-family: "Arial, Helvetica, sans-serif", serif; font-size: 1.5em; text-decoration: none; padding: 10px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .overlay-text { font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif; position: absolute; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .overlay-text .title-overlay-text { color: black; display: block; font-size: 40px; left: 37px; position: absolute; top: -400px; width: 400px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .overlay-text .overlay-subtext { color: crimson; font-size: 25px; font-weight: 900; left: 34px; position: absolute; top: -325px; width: 400px; }
+[id*="-wrapper"] #section-envelope #photo-envelope #section-right .overlay-text .overlay-subtext a { color: #ff0000; text-decoration: none; margin-top: 10px; }
 
 #newsletter-wrapper #section-envelope { flex-direction: row; }
 #newsletter-wrapper #section-envelope #section-left { width: 800px; }
+
+#get-involved-wrapper #section-envelope .section-paragraphs { background-color: transparent; text-align: center; color: #333333; font-size: 18px; }
+#get-involved-wrapper #section-envelope .section-paragraphs ul { list-style-type: none; }
+#get-involved-wrapper #section-envelope .section-paragraphs ul li a { text-decoration: none; color: #444444; }
+#get-involved-wrapper #section-envelope .section-paragraphs ul li a .span-overlay-subtext { font-weight: 400; color: #444444; }
 
 #hiv-aids-wrapper { flex-direction: row; }
 #hiv-aids-wrapper #left-section { width: 600px; margin: 40px 80px; text-align: left; }

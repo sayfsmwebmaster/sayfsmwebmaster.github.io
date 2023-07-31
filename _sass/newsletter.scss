@@ -242,8 +242,6 @@
           font-size: 15px;
         }
       }
-
-
     }
 
     .address {
@@ -298,7 +296,7 @@
         width: 100%;
       }
 
-      #overlay-text {
+      .overlay-text {
         font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
         position: absolute;
 
@@ -415,6 +413,126 @@
         font-size: 22px;
       }
     }
+
+    #photo-envelope {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+
+      #section-left {
+        width: 480px;
+
+        .image-envelope {
+          display: block;
+
+          #image-sizer {
+            width: 100%;
+            display: block;
+
+            img {
+              max-width: 100%;
+              max-height: 100%;
+            }
+          }
+        }
+
+        .overlay-text {
+          font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
+          position: absolute;
+
+          .title-overlay-text {
+            color: black;
+            display: block;
+            font-size: 40px;
+            left: 37px;
+            position: absolute;
+            top: -400px;
+            width: 400px;
+          }
+
+          .overlay-subtext {
+            color: crimson;
+            font-size: 25px;
+            font-weight: 900;
+            left: 34px;
+            position: absolute;
+            top: -325px;
+            width: 400px;
+
+            a {
+              color: #ff0000;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      #section-right {
+        display: block;
+        width: 480px;
+
+        .newsletter-container {
+          display: inline-flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 10px 15px;
+
+          a {
+            text-decoration: none;
+
+            .individual {
+              background-color: rgb(240, 240, 255);
+              width: 180px;
+              margin: auto;
+
+              .individual-icon {
+                padding: 15px;
+              }
+              .anchor-span {
+                font-family: "Arial, Helvetica, sans-serif", serif;
+                font-size: 1.5em;
+                text-decoration: none;
+                padding: 10px;
+              }
+            }
+          }
+        }
+
+        .overlay-text {
+          font-family: Oswald-ExtraLight, Oswald, Helvetica, Sans-Serif;
+          position: absolute;
+
+          .title-overlay-text {
+            color: black;
+            display: block;
+            font-size: 40px;
+            left: 37px;
+            position: absolute;
+            top: -400px;
+            width: 400px;
+          }
+
+          .overlay-subtext {
+            color: crimson;
+            font-size: 25px;
+            font-weight: 900;
+            left: 34px;
+            position: absolute;
+            top: -325px;
+            width: 400px;
+
+            a {
+              color: #ff0000;
+              text-decoration: none;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -424,6 +542,31 @@
   #section-left {
     width: 800px;
   }
+}
+
+#get-involved-wrapper #section-envelope .section-paragraphs {
+  background-color: transparent;
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+
+  ul {
+    list-style-type: none;
+
+    li {
+
+      a {
+        text-decoration: none;
+        color: #444444;
+        
+        .span-overlay-subtext {
+          font-weight: 400;
+          color: #444444;
+        }
+      }
+    }
+  }
+
 }
 
 #hiv-aids-wrapper {
