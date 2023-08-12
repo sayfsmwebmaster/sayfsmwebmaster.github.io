@@ -4,10 +4,11 @@
 body {
   display: inline-flex;
   flex-direction: column;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: scroll;
+  width: 100%;
 
-  &> div {
-
-  }
 }
 
 .current {

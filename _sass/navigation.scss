@@ -1,16 +1,16 @@
 .menu {
-  display: inherit;
-  flex: 2;
-  width: 100%;
+  //display: inherit;
+  //flex: 2;
+  //width: 100%;
 
   .menuContainer {
-    position: static;
-    display: grid;
-    height: auto;
-    width: 100%;
-    min-height: auto;
-    grid-template-rows: 1fr;
-    grid-template-columns: 100%;
+    //position: static;
+    //display: grid;
+    //height: auto;
+    //width: 100%;
+    //min-height: auto;
+    //grid-template-rows: 1fr;
+    //grid-template-columns: 100%;
 
     .navMenu {
       //position: absolute;
@@ -21,7 +21,7 @@
       //transform: translate(-50%, -50%);
       //width: 70%;
       position: relative;
-      margin: 200px 0 0 calc((100% - 800px) * 0.5);
+      margin: 20px 0 0 calc((100% - 800px) * 0.5);
       left: 0;
       grid-area: 1 / 1 / 2 / 2;
       justify-self: start;

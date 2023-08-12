@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 980px;
+  margin: 0 calc(100% - (980/2)px);
+  min-width: 980px;
 
   #section-title {
     padding: 20px 0;
@@ -294,6 +295,11 @@
     #index-first-image {
       width: 100%;
       margin: 20px 0;
+      text-align: center;
+      background-image: url('/assets/images/africa_background_image.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
 
       .image-envelope {
         width: 100%;

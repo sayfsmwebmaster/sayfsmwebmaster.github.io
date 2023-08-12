@@ -5,13 +5,12 @@
   display: flex;
   flex: 1;
   flex-direction: row;
-  //margin: 0 auto;
+  margin: 0 auto;
 
   .sayfsm-header-container {
-    position: absolute;
     display: grid;
     height: auto;
-    width: 100%;
+    margin: auto;
     min-height: auto;
     grid-template-rows: min-content 1fr;
     grid-template-columns: 100%;
@@ -27,7 +26,7 @@
         margin: auto;
         display: block;
         object-fit: contain;
-        object-position: center center;
+        object-position: 50% 50%;
       }
     }
 
