@@ -12,12 +12,13 @@
 
       a {
         color: #232323;
-        text-decoration: none;
-        font-size: 1.3em;
-        text-transform: uppercase;
-        font-weight: 500;
         display: inline-block;
+        font-size: 1.3em;
+        font-weight: 500;
         -webkit-transition: all 0.2s ease-in-out;
+        padding: 0 4px;
+        text-decoration: none;
+        text-transform: uppercase;
         transition: all 0.2s ease-in-out;
 
         &:hover {
@@ -34,7 +35,7 @@
 
         &:nth-child(2):hover ~ .dot {
           -webkit-transform: translateX(70px);
-          transform: translateX(60px);
+          transform: translateX(75px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
@@ -42,7 +43,7 @@
 
         &:nth-child(3):hover ~ .dot {
           -webkit-transform: translateX(140px);
-          transform: translateX(130px);
+          transform: translateX(140px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
@@ -50,47 +51,47 @@
 
         &:nth-child(4):hover ~ .dot {
           -webkit-transform: translateX(240px);
-          transform: translateX(220px);
+          transform: translateX(240px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
         }
 
         &:nth-child(5):hover ~ .dot {
-          -webkit-transform: translateX(350px);
-          transform: translateX(340px);
+          -webkit-transform: translateX(380px);
+          transform: translateX(380px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
         }
 
         &:nth-child(6):hover ~ .dot {
-          -webkit-transform: translateX(470px);
-          transform: translateX(450px);
+          -webkit-transform: translateX(490px);
+          transform: translateX(490px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
         }
 
         &:nth-child(7):hover ~ .dot {
-          -webkit-transform: translateX(570px);
-          transform: translateX(550px);
+          -webkit-transform: translateX(600px);
+          transform: translateX(600px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
         }
 
         &:nth-child(8):hover ~ .dot {
-          -webkit-transform: translateX(670px);
-          transform: translateX(640px);
+          -webkit-transform: translateX(700px);
+          transform: translateX(700px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
         }
 
         &:nth-child(9):hover ~ .dot {
-          -webkit-transform: translateX(760px);
-          transform: translateX(730px);
+          -webkit-transform: translateX(800px);
+          transform: translateX(800px);
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           opacity: 1;
