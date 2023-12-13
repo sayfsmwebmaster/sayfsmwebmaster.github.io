@@ -1,11 +1,25 @@
 <div class="menu">
   <div class="menuContainer">
     <nav class="navMenu">
-      {% for item in site.data.navigation %}
-        <a href='{{ item.link }}' {% if page.url == item.link %}style="color: red;"{% endif %}>
-          {{ item.name }}
-        </a>
-      {% endfor %}
+      <div class="cm-e-menu">
+        <ul>
+          {% for item in site.data.navigation %}
+            <li class="topmenu">
+              <a href='{{ item.link }}' {% if page.url == item.link %}style="color: red;"{% endif %}>
+                {{ item.name }}
+              </a>
+            </li>
+          {% endfor %}
+          <li class="topmenu">
+            <a>more</a>
+            <ul class="submenu">
+              <li>
+                <a href="/under-one-roof.html">under one roof</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
       <div class="dot"></div>
     </nav>
   </div>
