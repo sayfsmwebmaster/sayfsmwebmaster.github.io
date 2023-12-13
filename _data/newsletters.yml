@@ -3,6 +3,16 @@ languages:
     title: Amharic
     path: AmharicNewsletters
     issues:
+      - issue: 29
+        name: Amharic_2023_09_Issue29.pdf
+        type: pdf
+        year: 2023
+        month: September
+      - issue: 28
+        name: Amharic_2023_06_Issue28.pdf
+        type: pdf
+        year: 2023
+        month: June
       - issue: 27
         name: Amharic_2023_04_Issue27.pdf
         type: pdf
@@ -83,6 +93,16 @@ languages:
     title: English
     path: EnglishNewsletters
     issues:
+      - issue: 29
+        name: English_2023_09_Issue29.pdf
+        type: pdf
+        year: 2023
+        month: September
+      - issue: 28
+        name: English_2023_06_Issue28.pdf
+        type: pdf
+        year: 2023
+        month: June
       - issue: 27
         name: English_2023_04_Issue27.pdf
         type: pdf
@@ -162,6 +182,16 @@ languages:
     title: Swahili
     path: KiswahiliNewsletters
     issues:
+      - issue: 29
+        name: Swahili_2023_09_Issue29.pdf
+        type: pdf
+        year: 2023
+        month: September
+      - issue: 28
+        name: Swahili_2023_06_Issue28.pdf
+        type: pdf
+        year: 2023
+        month: June
       - issue: 27
         name: Swahili_2023_04_Issue27.pdf
         type: pdf
@@ -237,6 +267,16 @@ languages:
     title: Oromo
     path: OromoNewsletters
     issues:
+      - issue: 29
+        name: Oromo_2023_09_Issue29.pdf
+        type: pdf
+        year: 2023
+        month: September
+      - issue: 28
+        name: Oromo_2023_06_Issue28.pdf
+        type: pdf
+        year: 2023
+        month: June
       - issue: 27
         name: Oromo_2023_04_Issue27.pdf
         type: pdf
@@ -316,6 +356,16 @@ languages:
     title: Somali
     path: SomaliNewsletters
     issues:
+      - issue: 29
+        name: Somali_2023_09_Issue29.pdf
+        type: pdf
+        year: 2023
+        month: September
+      - issue: 28
+        name: Somali_2023_06_Issue28.pdf
+        type: pdf
+        year: 2023
+        month: June
       - issue: 27
         name: Somali_2023_04_Issue27.pdf
         type: pdf
