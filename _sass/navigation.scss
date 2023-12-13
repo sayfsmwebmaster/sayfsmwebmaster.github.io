@@ -4,11 +4,12 @@
 
     .navMenu {
       position: relative;
-      margin: 20px 0 0 calc((95% - 900px) * 0.5);
+      margin: 20px 0 0 calc((90% - 900px) * 0.5);
       left: 0;
       grid-area: 1 / 1 / 2 / 2;
       justify-self: start;
       align-self: start;
+      width: 1050px;
 
       a {
         color: #232323;
@@ -145,8 +146,6 @@
         padding: .2em 1.5em;
         font-size: .9rem;
       }
-      
-      
     }
   }
   
@@ -202,11 +201,7 @@
     > ul {
       display: table;
     }
-  }  
-
-  //li:hover > ul {
-  //  display: table;
-  //}
+  }
 }
 
 
