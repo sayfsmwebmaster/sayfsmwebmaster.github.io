@@ -192,6 +192,11 @@ languages:
     title: Swahili
     path: KiswahiliNewsletters
     issues:
+      - issue: 30
+        name: Kswahil_2023_11_Issue30.pdf
+        type: pdf
+        year: 2023
+        month: November
       - issue: 29
         name: Swahili_2023_09_Issue29.pdf
         type: pdf
@@ -277,6 +282,11 @@ languages:
     title: Oromo
     path: OromoNewsletters
     issues:
+      - issue: 30
+        name: Oromo_2023_11_Issue30.pdf
+        type: pdf
+        year: 2023
+        month: November
       - issue: 29
         name: Oromo_2023_09_Issue29.pdf
         type: pdf
@@ -366,6 +376,11 @@ languages:
     title: Somali
     path: SomaliNewsletters
     issues:
+      - issue: 30
+        name: Somali_2023_11_Issue30.pdf
+        type: pdf
+        year: 2023
+        month: November
       - issue: 29
         name: Somali_2023_09_Issue29.pdf
         type: pdf
