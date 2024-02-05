@@ -7,6 +7,7 @@ languages:
         name: "Issue 30  Amharic November  2023  newsletter.pdf"
         type: pdf
         year: 2023
+        month: November
       - issue: 29
         name: Amharic_2023_09_Issue29.pdf
         type: pdf
@@ -97,6 +98,11 @@ languages:
     title: English
     path: EnglishNewsletters
     issues:
+      - issue: 30
+        name: Issue_30_English_November_2023_Newsletter.pdf
+        type: pdf
+        year: 2023
+        month: November
       - issue: 29
         name: English_2023_09_Issue29.pdf
         type: pdf
