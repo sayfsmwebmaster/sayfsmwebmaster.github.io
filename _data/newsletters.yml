@@ -3,6 +3,10 @@ languages:
     title: Amharic
     path: AmharicNewsletters
     issues:
+      - issue: 30
+        name: Issue 30  Amharic November  2023  newsletter.pdf
+        type: pdf
+        year: 2023
       - issue: 29
         name: Amharic_2023_09_Issue29.pdf
         type: pdf
