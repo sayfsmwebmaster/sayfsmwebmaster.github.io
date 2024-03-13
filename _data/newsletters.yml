@@ -202,6 +202,12 @@ languages:
     title: Swahili
     path: KiswahiliNewsletters
     issues:
+      - issue: 31
+        name: "Issue 31 Kswahil Feb 2024  Newsletter.pdf"
+        type: pdf
+        year: 2024
+        month: February
+
       - issue: 30
         name: Kswahil_2023_11_Issue30.pdf
         type: pdf
