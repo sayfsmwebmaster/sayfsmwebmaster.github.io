@@ -103,6 +103,11 @@ languages:
     title: English
     path: EnglishNewsletters
     issues:
+      - issue: 31
+        name: "Issue 31 English Feb  2024 Newsletter.pdf"
+        type: pdf
+        year: 2024
+        month: February
       - issue: 30
         name: Issue_30_English_November_2023_Newsletter.pdf
         type: pdf
